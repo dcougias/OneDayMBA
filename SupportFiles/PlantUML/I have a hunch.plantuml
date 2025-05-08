@@ -1,0 +1,52 @@
+@startuml
+!define RECTANGLE class
+
+title Logical Flow: Starting with a Single Hunch
+
+start
+
+:Capture a Hunch;
+note right
+ A loosely-held assumption about 
+ a specific pain point or frustration.
+end note
+
+:Ask "Who else might feel this?";
+note right
+ Begin expanding the persona or 
+ affected group from the original hunch.
+end note
+
+:Brainstorm Adjacent Hunches;
+note right
+ What related assumptions or signals 
+ emerge around the original?
+end note
+
+:Look for Themes or Overlaps;
+note right
+ Are these hunches pointing to a 
+ deeper or shared underlying problem?
+end note
+
+:Draft a Core Problem Statement;
+note right
+ Translate the pattern into a 
+ clear, singular problem to validate.
+end note
+
+:Propose a Hypothesis;
+note right
+ Make a bold, directional bet about 
+ the nature of the problem and potential value of solving it.
+end note
+
+:Run Idea Assessment Framework;
+note right
+ Use structured criteria to assess viability,
+ reachability, and founder-fit.
+end note
+
+stop
+
+@enduml

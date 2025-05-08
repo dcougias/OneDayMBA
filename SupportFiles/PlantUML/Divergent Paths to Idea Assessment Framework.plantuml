@@ -1,0 +1,31 @@
+@startuml
+title Divergent Paths to Idea Assessment Framework
+
+start
+
+split
+  :Start with a Hypothesis;
+  :List Supporting Hunches;
+  :Cluster Hunches into Themes;
+  :Extract Core Problem Statement;
+split again
+  :Start with a Single Hunch;
+  :Ask "Who else might feel this?";
+  :Brainstorm Adjacent Hunches;
+  :Look for Themes or Overlaps;
+  :Draft Core Problem Statement;
+  :Propose a Hypothesis;
+split again
+  :"I think this is a problem";
+  :Deconstruct the Statement;
+  :Translate into One or More Hunches;
+  :Explore Related Hunches;
+  :Cluster Themes and Personas;
+  :Refine Core Problem Statement;
+  :Propose a Hypothesis;
+endsplit
+
+:Run Idea Assessment Framework;
+stop
+
+@enduml

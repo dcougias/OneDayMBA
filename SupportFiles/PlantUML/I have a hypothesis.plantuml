@@ -1,0 +1,40 @@
+@startuml
+!define RECTANGLE class
+
+title Logical Flow: Hypothesis → Hunches → Problem Statement
+
+start
+
+:Define a Hypothesis;
+note right
+ A bold, testable belief about 
+ a group and their unmet need.
+end note
+
+:List Supporting Hunches;
+note right
+ Loosely-held assumptions that reflect 
+ observed frustrations, patterns, or pain points.
+end note
+
+:Cluster Hunches into Themes;
+note right
+ Group hunches that appear to share
+ a common cause or affected persona.
+end note
+
+:Extract the Core Problem;
+note right
+ Synthesize themes into a single
+ clear, actionable problem statement.
+end note
+
+:Test with Idea Assessment Framework;
+note right
+ Evaluate if the problem is real, painful, 
+ addressable, and worth solving.
+end note
+
+stop
+
+@enduml

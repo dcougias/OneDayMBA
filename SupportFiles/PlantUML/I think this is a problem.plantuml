@@ -1,0 +1,60 @@
+@startuml
+!define RECTANGLE class
+
+title Logical Flow: Starting from "I Think This Is a Problem"
+
+start
+
+:"I think this is a problem";
+note right
+ A strong intuition or observed friction.
+Feels more concrete than a hunch,
+but still unvalidated.
+end note
+
+:Deconstruct the Statement;
+note right
+ What assumptions are embedded here?
+Who is affected? Why is it painful?
+Is it persistent or situational?
+end note
+
+:Translate into One or More Hunches;
+note right
+ Break the problem into smaller
+ testable assumptions or patterns.
+end note
+
+:Explore Related Hunches;
+note right
+ Are there adjacent issues, contributing
+ causes, or variations across segments?
+end note
+
+:Cluster Themes and Personas;
+note right
+ Group similar hunches to find a broader
+ pattern or common user profile.
+end note
+
+:Refine into a Core Problem Statement;
+note right
+ A clear articulation of the shared issue,
+ ready for validation.
+end note
+
+:Propose a Hypothesis;
+note right
+ A directional, testable bet that explains
+ the problem's nature and your stance on it.
+end note
+
+:Run Idea Assessment Framework;
+note right
+ Evaluate reachability, pain level,
+ market gap, and founder-fit.
+end note
+
+stop
+
+@enduml
